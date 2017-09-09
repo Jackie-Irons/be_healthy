@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  interger: MyString
+  ,: MyString
+  InsulinUsed: MyString
+  interger: MyString
+
+two:
+  interger: MyString
+  ,: MyString
+  InsulinUsed: MyString
+  interger: MyString

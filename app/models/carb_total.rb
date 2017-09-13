@@ -1,2 +1,3 @@
 class CarbTotal < ApplicationRecord
 end
+

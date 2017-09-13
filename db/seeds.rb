@@ -6,5 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 User.create({first_name: 'Tony', last_name: 'Stark', email: 'ironman@me.com' })
-Blood_Sugar.create({glucose: '100', two_hours_later: '90'})
-Carb_total.create({carbs_in_meal: '40', insulin_used: '30'})
+BloodSugar.create({glucose: '100', two_hours_later: '90'})
+CarbTotal.create({carbs_in_meal: '40', insulin_used: '30'})

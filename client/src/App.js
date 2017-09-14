@@ -6,7 +6,7 @@ import User from "./components/User";
 import BloodSugar from "./components/BloodSugar";
 import CarbTotal from "./components/CarbTotal";
 import GlobalNav from "./components/GlobalNav";
-
+import styled from "styled-components";
 
 
 class App extends Component {
@@ -18,8 +18,8 @@ class App extends Component {
         <div>
           <GlobalNav />
           <Route path="/" component={HomePage}/>
-          <Route path="/user/:id" component={User}/>
           <Route path="/" component={SignUp} />
+          <Route path="/user/" component={User}/>
           <Route path="/" component={BloodSugar} />
           <Route path="/" component={CarbTotal} />
         </div>

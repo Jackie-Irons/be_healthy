@@ -7,7 +7,7 @@ class CarbTotal extends Component{
   render(){
     return (
       <div>
-        <h1>Hello from CarbTotal</h1>
+        <h1></h1>
       </div>
     )
   }

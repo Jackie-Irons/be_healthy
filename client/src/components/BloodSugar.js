@@ -7,7 +7,7 @@ class BloodSugar extends Component{
   render(){
     return (
       <div>
-        <h1>Hello from BloodSugar</h1>
+        <h1></h1>
       </div>
     )
   }

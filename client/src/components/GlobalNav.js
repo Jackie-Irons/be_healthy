@@ -26,7 +26,7 @@ const Nav = styled.div`
         <h1>Be Healthy</h1>
       </Link>
       <div>
-        <Link to="/user/1">Account</Link>
+        <Link to="/user/1">Log In</Link>
         <Link to="/signup">Sign Up!</Link>
       </div>
     </Nav>

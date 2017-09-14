@@ -1,4 +1,7 @@
-class User < ApplicationRecord
-	has_many :blood_sugars, dependent: :destroy
-	has_many :carb_totals, dependent: :destroy
+class User < ActiveRecord::Base
+  # Include default devise modules.
+  devise :database_authenticatable, :registerable,
+          :recoverable, :rememberable, :trackable, :validatable,
+          :confirmable, :omniauthable
+  include DeviseTokenAuth::Concerns::User
 end

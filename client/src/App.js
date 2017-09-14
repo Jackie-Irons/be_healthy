@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import LogIn from "./components/LogIn"
 import SignUp from "./components/SignUp";
 import User from "./components/User";
 import BloodSugar from "./components/BloodSugar";
@@ -18,6 +19,7 @@ class App extends Component {
         <div>
           <GlobalNav />
           <Route path="/" component={HomePage}/>
+          <Route path="/" component={LogIn} />
           <Route path="/" component={SignUp} />
           <Route path="/user/" component={User}/>
           <Route path="/" component={BloodSugar} />

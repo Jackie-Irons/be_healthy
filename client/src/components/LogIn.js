@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
 
-class SignUp extends Component{
+
+class LogIn extends Component{
   render(){
     return (
       <div>
@@ -14,4 +15,4 @@ class SignUp extends Component{
   }
 }
 
-export default SignUp
+export default LogIn;

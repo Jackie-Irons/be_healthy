@@ -1,4 +1,5 @@
 class Api::BloodSugarsController < ApplicationController
+  before_action :authenticate_user!
 def index
 		@user = User.find params[:user_id]
 		@blood_sugars = @user.blood_sugars.all

@@ -17,9 +17,8 @@ background-position: center;
 class HomePage extends Component {
     render() {
         return (
-
             <HomePageContainer>
-            
+
            </HomePageContainer>
 
         );

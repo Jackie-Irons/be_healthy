@@ -1,4 +1,5 @@
 class Api::CarbTotalController < ApplicationController
+  before_action :authenticate_user!
 	def index
 		@carb_totals = Carb_total.all
 		render json: @carb_totals 

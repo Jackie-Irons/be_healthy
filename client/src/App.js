@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import LogIn from "./components/LogIn"
 import SignUp from "./components/SignUp";
-import User from "./components/User";
+import UserHome from "./components/UserHome";
 import BloodSugar from "./components/BloodSugar";
 import CarbTotal from "./components/CarbTotal";
 import GlobalNav from "./components/GlobalNav";
@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/login" component={LogIn} />
           <Route exact path="/signup" component={SignUp} />
-          <Route path="/user/" component={User}/>
+          <Route exact path="/userhome" component={UserHome}/>
           <Route path="/" component={BloodSugar} />
           <Route path="/" component={CarbTotal} />
         </div>

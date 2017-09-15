@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
-class User extends Component{
+class UserHome extends Component{
   render(){
     return (
       <div>
@@ -14,4 +14,4 @@ class User extends Component{
 }
 
 
-export default User;
+export default UserHome;

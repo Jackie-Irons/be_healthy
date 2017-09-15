@@ -4,15 +4,15 @@ class Api::CarbTotalController < ApplicationController
 		@carb_totals = Carb_total.all
 		render json: @carb_totals 
 end	
-
-	def create
-		@carb_total = Carb_total.create!(user_params)
-		redirect_to carb_total_path(@carb_total)
-end
 def show
     @carb_total = Carb_total.find(params[:id])
     render json: @carb_total
   end
+	def create
+		@carb_total = Carb_total.create!(user_params)
+		redirect_to carb_total_path(@carb_total)
+end
+
 
   def update
     @carb_total = Carb_total.find(params[:id])

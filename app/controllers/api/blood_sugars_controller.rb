@@ -7,15 +7,16 @@ def index
 			@blood_sugars 
 
 end	
+def show
+    @blood_sugar = blood_sugar.find(params[:id])
+    render json: @blood_sugar
+  end
+
 
 	def create
 		@blood_sugar = Blood_sugar.create!(blood_sugar_params)
 		redirect_to blood_sugar_path(@blood_sugar)
 end
-def show
-    @blood_sugar = blood_sugar.find(params[:id])
-    render json: @blood_sugar
-  end
 
   def update
     @blood_sugar = Blood_sugar.find(params[:id])

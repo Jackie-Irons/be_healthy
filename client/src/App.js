@@ -23,9 +23,9 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/login" component={LogIn} />
           <Route exact path="/signup" component={SignUp} />
-          <Route exact path="/userhome" component={UserHome}/>
-          <Route path="/" component={BloodSugar} />
-          <Route path="/" component={CarbTotal} />
+          <Route path="/userhome" component={UserHome}/>
+          <Route path="/bloodsugar" component={BloodSugar} />
+          <Route path="/carbtotal" component={CarbTotal} />
         </div>
       </Router>
     );

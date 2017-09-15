@@ -18,7 +18,7 @@ class HomePage extends Component {
     render() {
         return (
             <HomePageContainer>
-
+            <a href="/userhome">Click To Go To User Home</a>
            </HomePageContainer>
 
         );

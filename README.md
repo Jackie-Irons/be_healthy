@@ -6,6 +6,7 @@ More than 100 million U.S. adults are now living with diabetes or prediabetes, a
 ## Unsolved Problems/Future Development
 * A1C Conversion Calculator
 * Alert message for good and bad blood Sugar
+* Third Party API
 
 ## Technologies Used
 * React
@@ -15,4 +16,8 @@ More than 100 million U.S. adults are now living with diabetes or prediabetes, a
 
 ## Trello/ERD
 * [Trello](https://trello.com/b/CPUzR2sW/project-4)
-* [Wireframes](https://i.imgur.com/uJCg7aem.jpg)
+* [Wireframes](https://i.imgur.com/uJCg7ae.jpg)
+* [ERD](https://i.imgur.com/09NkXCn.jpg)
+
+## Project 4
+* [Link to project on Heroku](https://be-healthy.herokuapp.com/)

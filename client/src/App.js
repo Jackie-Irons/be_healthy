@@ -7,6 +7,7 @@ import UserHome from "./components/UserHome";
 import BloodSugar from "./components/BloodSugar";
 import CarbTotal from "./components/CarbTotal";
 import GlobalNav from "./components/GlobalNav";
+import EditBsLog from "./components/EditBsLog";
 import styled from "styled-components";
 import {setAxiosDefaults} from "./util";
 
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path="/userhome" component={UserHome}/>
           <Route path="/bloodsugar" component={BloodSugar} />
           <Route path="/carbtotal" component={CarbTotal} />
+          <Route path="/editbslog" component={CarbTotal} />
         </div>
       </Router>
     );

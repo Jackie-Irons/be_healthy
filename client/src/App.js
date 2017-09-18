@@ -6,10 +6,11 @@ import SignUp from "./components/SignUp";
 import UserHome from "./components/UserHome";
 import BloodSugar from "./components/BloodSugar";
 import CarbTotal from "./components/CarbTotal";
-import GlobalNav from "./components/GlobalNav";
 import EditBsLog from "./components/EditBsLog";
+import GlobalNav from "./components/GlobalNav";
 import styled from "styled-components";
 import {setAxiosDefaults} from "./util";
+
 
 class App extends Component {
    componentWillMount(){
@@ -24,10 +25,10 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/login" component={LogIn} />
           <Route exact path="/signup" component={SignUp} />
-          <Route path="/userhome" component={UserHome}/>
+          <Route exact path="/userhome" component={UserHome}/>
           <Route path="/bloodsugar" component={BloodSugar} />
           <Route path="/carbtotal" component={CarbTotal} />
-          <Route path="/editbslog" component={CarbTotal} />
+          <Route path="/editbslog/:id/edit" component={EditBsLog} />
         </div>
       </Router>
     );

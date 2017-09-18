@@ -18,12 +18,11 @@ background-position: center;
 class UserHome extends Component{
   render(){
     return (
-
+      <form>
     	 <div>
-    	<UserHomeContainer>
+    	 <UserHomeContainer>
 
-    	</UserHomeContainer>
-      
+      </UserHomeContainer>
      
         <h1>Logs</h1>
      <a href="/bloodsugar"><h2>Blood Sugar</h2></a>
@@ -31,6 +30,7 @@ class UserHome extends Component{
         
         <a href="/carbtotal"><h2>Carbohydrate Log</h2></a>
       </div>
+      </form>
     )
   }
 }

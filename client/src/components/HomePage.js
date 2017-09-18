@@ -12,14 +12,29 @@ background-image: url("http://food.fnr.sndimg.com/content/dam/images/food/fullse
 background-size: cover;
 background-position: center;
 `
+const HomePageStyles = styled.div`
+  width: 30%;
+  padding: 10px;
+  margin: 20px 0; 
+  box-shadow: 1px 1px 5px black;
+  h3{
+    padding: 5px 0;
+  }
+`;
 
 
 class HomePage extends Component {
     render() {
         return (
+            <div>
             <HomePageContainer>
+          
             <a href="/userhome">Click To Go To User Home</a>
+            
            </HomePageContainer>
+           </div>
+
+           
 
         );
     }

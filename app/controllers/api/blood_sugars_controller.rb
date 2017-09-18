@@ -1,12 +1,14 @@
 class Api::BloodSugarsController < ApplicationController
   before_action :authenticate_user!
+
 def index
 		@user = User.find params[:user_id]
 		@blood_sugars = @user.blood_sugars.all
 		render json: 
 			@blood_sugars 
 
-end	
+end
+	
 def show
     @blood_sugar = blood_sugar.find(params[:id])
     render json: @blood_sugar

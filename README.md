@@ -7,6 +7,7 @@ More than 100 million U.S. adults are now living with diabetes or prediabetes, a
 * A1C Conversion Calculator
 * Alert message for good and bad blood Sugar
 * Third Party API
+* Full CRUD
 
 ## Technologies Used
 * React
